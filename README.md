@@ -2,9 +2,19 @@
 The best Network Scanner having multiple modules like ping scan, Host Scan, CVE Scan of open ports, Live Host scans and Web Crawler.
 
 
-## Model Training Results
-![Results](https://github.com/Muhammad-Nouman-Ahmed/PE-Protect-Antivirus-using-Machine-Learning/blob/main/train.PNG)
-![Results](https://github.com/Muhammad-Nouman-Ahmed/PE-Protect-Antivirus-using-Machine-Learning/blob/main/confusion.PNG)
+## Software Pics
+![Results](https://github.com/Muhammad-Nouman-Ahmed/Network_Scanner/blob/main/img/1.PNG)
+![Results](https://github.com/Muhammad-Nouman-Ahmed/Network_Scanner/blob/main/img/2.PNG)
+![Results](https://github.com/Muhammad-Nouman-Ahmed/Network_Scanner/blob/main/img/3.PNG)
+![Results](https://github.com/Muhammad-Nouman-Ahmed/Network_Scanner/blob/main/img/4.PNG)
+![Results](https://github.com/Muhammad-Nouman-Ahmed/Network_Scanner/blob/main/img/5.PNG)
+![Results](https://github.com/Muhammad-Nouman-Ahmed/Network_Scanner/blob/main/img/6.PNG)
+![Results](https://github.com/Muhammad-Nouman-Ahmed/Network_Scanner/blob/main/img/7.PNG)
+![Results](https://github.com/Muhammad-Nouman-Ahmed/Network_Scanner/blob/main/img/8.PNG)
+![Results](https://github.com/Muhammad-Nouman-Ahmed/Network_Scanner/blob/main/img/9.PNG)
+![Results](https://github.com/Muhammad-Nouman-Ahmed/Network_Scanner/blob/main/img/10.PNG)
+![Results](https://github.com/Muhammad-Nouman-Ahmed/Network_Scanner/blob/main/img/11.PNG)
+
 
 ## Requirement
 * See reqirement.txt file
