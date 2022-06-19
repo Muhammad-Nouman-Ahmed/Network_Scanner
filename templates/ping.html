@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{ url_for('static', filename = 'style.css') }}">
+    <style>
+        body{
+    height: 100%;
+    widows: 100%;
+    background-image: url("static/q.jpg"); 
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: #f9f9f9;
+    text-align: center;
+}
+.home{
+    margin-top: 15%;
+    text-align: center ;
+}
+
+.home h2,h1{
+    font-weight: 600;
+    text-transform:uppercase;
+    font-family: 'Dosis', sans-serif;
+}
+.home h2{
+    font-weight: 400;
+}
+
+a{
+    margin-top: 25px;
+}
+
+.container p{
+    position: fixed;
+    bottom: 15px;
+    width: 100%;
+    margin-left: -10%;
+}
+
+/* Spyder page css */
+
+.spyder{
+    padding-top: 10%;
+    text-align: center;
+}
+
+.spyder h2,h1{
+    font-weight: 600;
+    text-transform:uppercase;
+    font-family: 'Dosis', sans-serif;
+}
+
+.spyder h2{
+    font-weight: 400;
+}
+
+.spyder .form-control{
+    height: 3rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 25px;
+}
+
+.spyder .btn{
+    margin-top: 25px;
+
+}
+
+.spyder .values{
+    margin-top:75px ;
+    color: #fff;
+}
+
+.spyder .val{
+    margin-bottom: 25px;
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 25px;
+    padding: 10px 5px;
+    border: 1px solid #f9f9f9;
+}
+
+.spyder .val h4{
+    font-weight: 400;
+}
+
+/* Port scanner css */
+
+
+.scanner{
+    padding-top: 10%;
+    text-align: center;
+}
+
+.scanner h2,h1{
+    font-weight: 600;
+    text-transform:uppercase;
+    font-family: 'Dosis', sans-serif;
+}
+
+.scanner h2{
+    font-weight: 400;
+}
+
+.scanner .form-control{
+    height: 3rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 25px;
+}
+
+.scanner .btn{
+    margin-top: 25px;
+
+}
+
+.scanner .form-control{
+    height: 3rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 25px;
+}
+
+.scanner .btn{
+    margin-top: 25px;
+
+}
+
+.scanner .values{
+    margin-top:75px ;
+    color: #fff;
+}
+
+.scanner .val{
+    margin-bottom: 25px;
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 25px;
+    padding: 10px 5px;
+    border: 1px solid #f9f9f9;
+}
+
+.scanner .val h4{
+    font-weight: 400;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="spyder">
+            <h2>Welcome to</h2>
+            <h1>PING SCAN</h1>
+            <form action="/ping-result" method="post">
+                <div class="form-group">
+                    <input class="form-control" type="text" name="url" placeholder="Enter IP or URL to scan">
+                    <input type="submit" class="btn btn-outline-light btn-lg" value="SUBMIT">
+                </div>
+            </form>
+            <a href="/" class="btn btn-outline-light btn-lg">back</a>
+            <div class="values">
+                
+                <div class="val">
+                    <h4>{{data1}}:{{ data }}</h4>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>

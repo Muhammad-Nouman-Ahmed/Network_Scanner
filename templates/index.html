@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web scanner</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="/static/style.css">
+    <style>
+        body{
+    height: 100%;
+    widows: 100%;
+    background-image: url("static/q.jpg"); 
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: #f9f9f9;
+    text-align: center;
+}
+.home{
+    margin-top: 4%;
+    text-align: center ;
+    font-family: 'Dosis', sans-serif;
+}
+
+.home h2,h1{
+    font-weight: 600;
+    text-transform:uppercase;
+    font-family: 'Dosis', sans-serif;
+}
+.home h3{
+    font-weight: 400;
+}
+
+a{
+    margin-top: 25px;
+}
+
+.container p{
+    position: fixed;
+    bottom: 15px;
+    width: 100%;
+    margin-left: -10%;
+}
+
+/* Spyder page css */
+
+.spyder{
+    padding-top: 10%;
+    text-align: center;
+}
+
+.spyder h2,h1{
+    font-weight: 600;
+    text-transform:uppercase;
+    font-family: 'Dosis', sans-serif;
+}
+
+.spyder h2{
+    font-weight: 400;
+}
+
+.spyder .form-control{
+    height: 3rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 25px;
+}
+
+.spyder .btn{
+    margin-top: 25px;
+
+}
+
+.spyder .values{
+    margin-top:75px ;
+    color: #fff;
+}
+
+.spyder .val{
+    margin-bottom: 25px;
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 25px;
+    padding: 10px 5px;
+    border: 1px solid #f9f9f9;
+}
+
+.spyder .val h4{
+    font-weight: 400;
+}
+
+/* Port scanner css */
+
+
+.scanner{
+    padding-top: 10%;
+    text-align: center;
+}
+
+.scanner h2,h1{
+    font-weight: 600;
+    text-transform:uppercase;
+    font-family: 'Dosis', sans-serif;
+}
+
+.scanner h2{
+    font-weight: 400;
+}
+
+.scanner .form-control{
+    height: 3rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 25px;
+}
+
+.scanner .btn{
+    margin-top: 25px;
+
+}
+
+.scanner .form-control{
+    height: 3rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 25px;
+}
+
+.scanner .btn{
+    margin-top: 25px;
+
+}
+
+.scanner .values{
+    margin-top:75px ;
+    color: #fff;
+}
+
+.scanner .val{
+    margin-bottom: 25px;
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 25px;
+    padding: 10px 5px;
+    border: 1px solid #f9f9f9;
+}
+
+.scanner .val h4{
+    font-weight: 400;
+}
+    </style>
+</head>
+<body style="background-color: black;" >
+    
+    <div class="container">
+        <div class="home">
+            <h2>Welcome to</h2>
+            <h1>Network Scanner</h1>
+            <a class="btn btn-outline-light btn-lg" style="width: 25%;" href="/ping" ><b>Ping Scan</b></a>
+            <br>
+            <a class="btn btn-outline-light btn-lg" style="width: 25%;" href="/portscanner1" ><b>Port Scan</b></a>
+            <br>
+            <a class="btn btn-outline-light btn-lg" style="width: 25%;" href="/portscanner" ><b>Service and CVE Scan</b></a>
+            <br>
+            <a class="btn btn-outline-light btn-lg" style="width: 25%;" href="/osdet"><b>Os Scan</b></a>
+            <br>
+            <a class="btn btn-outline-light btn-lg" style="width: 25%;" href="/livehosts"><b>LiveHosts Scan</b></a>
+            <br>
+            <a class="btn btn-outline-light btn-lg" style="width: 25%;" href="/spyder"><b>Web Crawler</b></a>
+        </div>
+        <p class="fixed-buttom">Powered by NHN</p>
+    </div>
+
+
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>
