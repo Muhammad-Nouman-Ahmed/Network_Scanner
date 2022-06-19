@@ -1,0 +1,8 @@
+flask~=2.0.2
+socket
+bs4~=0.0.1
+urllib
+
+beautifulsoup4~=4.10.0
+scapy~=2.4.5
+lxml~=4.7.1
