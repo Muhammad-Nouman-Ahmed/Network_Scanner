@@ -1,0 +1,152 @@
+body{
+    height: 100%;
+    widows: 100%;
+    background: #00B4DB;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0083B0, #00B4DB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #f9f9f9;
+    text-align: center;
+}
+.home{
+    margin-top: 15%;
+    text-align: center ;
+}
+
+.home h2,h1{
+    font-weight: 600;
+    text-transform:uppercase;
+    font-family: 'Dosis', sans-serif;
+}
+.home h2{
+    font-weight: 400;
+}
+
+a{
+    margin-top: 25px;
+}
+
+.container p{
+    position: fixed;
+    bottom: 15px;
+    width: 100%;
+    margin-left: -10%;
+}
+
+/* Spyder page css */
+
+.spyder{
+    padding-top: 10%;
+    text-align: center;
+}
+
+.spyder h2,h1{
+    font-weight: 600;
+    text-transform:uppercase;
+    font-family: 'Dosis', sans-serif;
+}
+
+.spyder h2{
+    font-weight: 400;
+}
+
+.spyder .form-control{
+    height: 3rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 25px;
+}
+
+.spyder .btn{
+    margin-top: 25px;
+
+}
+
+.spyder .values{
+    margin-top:75px ;
+    color: #fff;
+}
+
+.spyder .val{
+    margin-bottom: 25px;
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 25px;
+    padding: 10px 5px;
+    border: 1px solid #f9f9f9;
+}
+
+.spyder .val h4{
+    font-weight: 400;
+}
+
+/* Port scanner css */
+
+
+.scanner{
+    padding-top: 10%;
+    text-align: center;
+}
+
+.scanner h2,h1{
+    font-weight: 600;
+    text-transform:uppercase;
+    font-family: 'Dosis', sans-serif;
+}
+
+.scanner h2{
+    font-weight: 400;
+}
+
+.scanner .form-control{
+    height: 3rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 25px;
+}
+
+.scanner .btn{
+    margin-top: 25px;
+
+}
+
+.scanner .form-control{
+    height: 3rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 25px;
+}
+
+.scanner .btn{
+    margin-top: 25px;
+
+}
+
+.scanner .values{
+    margin-top:75px ;
+    color: #fff;
+}
+
+.scanner .val{
+    margin-bottom: 25px;
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 25px;
+    padding: 10px 5px;
+    border: 1px solid #f9f9f9;
+}
+
+.scanner .val h4{
+    font-weight: 400;
+}
